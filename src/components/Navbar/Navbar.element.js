@@ -28,6 +28,7 @@ export const Overlay = styled.div`
 		background: linear-gradient(${Colors.darkBlue}, ${Colors.veryLightGray});
 		width: 100%;
 		height: calc(100% - 70px);
+		opacity: 0.7;
 	}
 `;
 
