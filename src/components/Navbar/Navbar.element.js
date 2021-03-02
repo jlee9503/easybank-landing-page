@@ -8,8 +8,9 @@ export const NavContainer = styled(Container)`
 	align-items: center;
 	padding-top: 35px;
 	padding-bottom: 35px;
+	// z-index: 999;
 
-	@media screen and (max-width: 949px) {
+	@media screen and (max-width: 929px) {
 		padding-top: 25px;
 		padding-bottom: 25px;
 	}
@@ -19,7 +20,7 @@ export const NavContainer = styled(Container)`
 
 export const Overlay = styled.div`
 	display: none;
-	@media screen and (max-width: 949px) {
+	@media screen and (max-width: 929px) {
 		display: block;
 		position: absolute;
 		top: 70px;
@@ -29,6 +30,7 @@ export const Overlay = styled.div`
 		width: 100%;
 		height: calc(100% - 70px);
 		opacity: 0.7;
+		z-index: 999;
 	}
 `;
 
@@ -41,7 +43,7 @@ export const NavLogo = styled.img.attrs({
 export const MobileToggle = styled.div`
 	display: none;
 
-	@media screen and (max-width: 949px) {
+	@media screen and (max-width: 929px) {
 		display: block;
 		cursor: pointer;
 		width: 20px;
@@ -55,8 +57,9 @@ export const NavMenu = styled.ul`
 	flex-direction: row;
 	list-style: none;
 	background: ${Colors.white};
+	z-index: 999;
 
-	@media screen and (max-width: 949px) {
+	@media screen and (max-width: 929px) {
 		flex-direction: column;
 		position: absolute;
 		top: 70px;
@@ -74,7 +77,7 @@ export const NavItem = styled.li`
 		margin-right: 32px;
 	}
 
-	@media screen and (max-width: 949px) {
+	@media screen and (max-width: 929px) {
 		&:not(:last-child) {
 			margin-right: 0;
 			width: 100%;
@@ -100,7 +103,7 @@ export const NavLinks = styled(Link)`
 	text-decoration: none;
 	color: ${Colors.grayishBlue};
 	position: relative;
-	@media screen and (min-width: 950px) {
+	@media screen and (min-width: 930px) {
 		&:hover::before {
 			content: "";
 			position: absolute;
@@ -115,7 +118,7 @@ export const NavLinks = styled(Link)`
 		}
 	}
 
-	@media screen and (max-width: 949px) {
+	@media screen and (max-width: 929px) {
 		color: ${Colors.darkBlue};
 		&:hover {
 			color: ${Colors.white};
@@ -124,12 +127,7 @@ export const NavLinks = styled(Link)`
 `;
 
 export const NavButtonDesktop = styled(Button)`
-	padding: 10px 30px;
-	font-size: 15px;
-	color: ${Colors.white};
-	cursor: pointer;
-
-	@media screen and (max-width: 949px) {
+	@media screen and (max-width: 929px) {
 		display: none;
 	}
 
@@ -138,12 +136,10 @@ export const NavButtonDesktop = styled(Button)`
 
 export const NavButtonMobile = styled(Button)`
 	display: none;
-	@media screen and (max-width: 949px) {
+	@media screen and (max-width: 929px) {
 		display: block;
-		padding: 10px 100px;
-		font-size: 15px;
-		color: ${Colors.white};
-		cursor: pointer;
+		padding-left: 100px;
+		padding-right: 100px;
 	}
 
 	${Button}
