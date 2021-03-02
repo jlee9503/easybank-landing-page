@@ -1,2 +1,2 @@
 export { default as Navbar } from "./Navbar/Navbar";
-export { default as ContentInfo } from "./ContentInfo/ContentInfo";
+export { default as HomeInfo } from "./Pages/Home/HomeInfo";

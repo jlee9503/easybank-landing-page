@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import { ContentBackground, Button } from "../../globalStyle";
+import { ContentBackground, Button } from "../../../globalStyle";
 import {
 	ContentWrapper,
 	ContentContainer,
 	ImgContainer,
 	Title,
 	Description,
-} from "./ContentInfo.elements";
+} from "./HomeInfo.elements";
 
 const Content = ({ title, desc, buttonInfo }) => {
 	const [changeBackground, setChangeBackground] = useState(false);

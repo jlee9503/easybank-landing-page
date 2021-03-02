@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { Wrapper, Container, Colors } from "../../globalStyle";
-import { HomeData } from "../Pages/Home/Data";
+import { Wrapper, Container, Colors } from "../../../globalStyle";
+import { HomeData } from "./Data";
 
 export const ContentWrapper = styled(Wrapper)`
 	@media screen and (min-width: 930px) {
