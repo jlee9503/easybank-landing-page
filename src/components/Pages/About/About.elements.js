@@ -3,8 +3,8 @@ import { Colors, Container } from "../../../globalStyle";
 
 export const AboutContainer = styled(Container)`
 	text-align: center;
-	margin-top: 60px;
-	margin-bottom: 60px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 
 	@media screen and (min-width: 930px) {
 		text-align: left;
