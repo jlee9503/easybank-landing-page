@@ -82,7 +82,7 @@ export const ImgContainer = styled.div`
 	}
 `;
 
-export const Title = styled.div`
+export const Title = styled.h1`
 	color: ${Colors.darkBlue};
 	font-size: 36px;
 	line-height: 1.15;
@@ -92,7 +92,7 @@ export const Title = styled.div`
 	}
 `;
 
-export const Description = styled.div`
+export const Description = styled.p`
 	color: ${Colors.grayishBlue};
 	margin: 30px 0 37px 0;
 	line-height: 1.5;

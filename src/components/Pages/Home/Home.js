@@ -5,7 +5,7 @@ import { HomeData } from "./Data";
 const Home = () => {
 	return (
 		<>
-			<HomeInfo {...HomeData} />
+      <HomeInfo {...HomeData} />
 		</>
 	);
 };
