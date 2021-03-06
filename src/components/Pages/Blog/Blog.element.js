@@ -13,6 +13,11 @@ export const Title = styled.h2`
 	color: ${Colors.darkBlue};
 	margin-bottom: 15px;
 	text-align: center;
+
+	@media screen and (min-width: 930px) {
+		text-align: left;
+		font-size: 35px;
+	}
 `;
 
 export const ArticleSection = styled.div`
