@@ -8,6 +8,10 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Public Sans', sans-serif;
     font-size: 18px;
   }
+
+  body {
+    overflow-x: hidden;
+  }
 `;
 
 export const Colors = {
@@ -29,12 +33,12 @@ export const ContentBackground = styled.div`
 export const Wrapper = styled.div`
 	display: flex;
 	flex-direction: column;
-	max-width: 1200px;
+	max-width: 1300px;
 	margin: 0 auto;
 `;
 
 export const Container = styled.div`
-	max-width: 1200px;
+	max-width: 1300px;
 	margin: 0 auto;
 	padding: 0 45px;
 

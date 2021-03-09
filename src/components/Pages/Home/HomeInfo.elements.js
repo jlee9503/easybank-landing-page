@@ -62,9 +62,9 @@ export const ImgContainer = styled.div`
 
 		&::before {
 			background-image: url(${HomeData.DesktopBackground});
-			background-size: 135%;
+			background-size: 128%;
 			background-position: left 81%;
-			width: 130%;
+			width: 120%;
 			left: 8%;
 		}
 
@@ -75,8 +75,8 @@ export const ImgContainer = styled.div`
 			background-position: center 80%;
 			content: "";
 			position: absolute;
-			left: 32%;
-			width: 105%;
+			left: 27%;
+			width: 100%;
 			height: 110%;
 		}
 	}

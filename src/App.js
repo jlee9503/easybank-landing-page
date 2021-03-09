@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Navbar, Home, About, Blog } from "./components";
+import { Navbar, Home, About, Blog, Footer } from "./components";
 import GlobalStyle from "./globalStyle";
 
 function App() {
@@ -8,8 +8,9 @@ function App() {
 			<GlobalStyle />
 			<Navbar />
 			<Home />
-      <About />
-      <Blog />
+			<About />
+			<Blog />
+			<Footer />
 			{/* <Switch>
 				<Route exact path="/" component={Home} />
 				<Route path="/about" component={About} />
